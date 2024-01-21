@@ -175,6 +175,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fastify/busboy@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "@fastify/busboy@npm:2.1.0"
+  checksum: 7bb641080aac7cf01d88749ad331af10ba9ec3713ec07cabbe833908c75df21bd56249bb6173bdec07f5a41896b21e3689316f86684c06635da45f91ff4565a2
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -302,6 +309,15 @@ __metadata:
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 10e58b526efc73ac6e6a54466ec9e8f39a6a24aba902abc91cc2f85dbbe2bf1b4c84d941106036275b335a867d664009679136345c491dd642b953217d859ebb
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.11.5":
+  version: 20.11.5
+  resolution: "@types/node@npm:20.11.5"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 6d18cec852f5cfbed3ec42b5c01c026e7a3f9da540d6e3d6738d4cee9979fb308cf27b6df7ba40a6553e7bc82e678f0ef53ba6e6ad52e5b86bd97b7783c2a42c
   languageName: node
   linkType: hard
 
@@ -585,6 +601,18 @@ __metadata:
   checksum: 594754e1303672171cc04e50f6c398ae16128eb134a88f801bf5354fd96f205320f23536a045d9abd8b51024a149696e51231565891d4efdab8846021ecf88e6
   languageName: node
   linkType: hard
+
+"chrome-extensions-util@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "chrome-extensions-util@workspace:."
+  dependencies:
+    "@types/node": "npm:^20.11.5"
+    "@yarnpkg/sdks": "npm:^3.1.0"
+    tsx: "npm:^4.7.0"
+    typescript: "npm:^5.3.3"
+    undici: "npm:^6.3.0"
+  languageName: unknown
+  linkType: soft
 
 "ci-info@npm:^3.2.0":
   version: 3.9.0
@@ -1812,6 +1840,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "undici@npm:6.3.0"
+  dependencies:
+    "@fastify/busboy": "npm:^2.0.0"
+  checksum: dd532c3371b0a7b098ee7f0d6cdfb988fcf883059c4d3d72fa6eb858836dd039b5ff8ca207c10f9c93edc3fb0ba5e3f9a4f6982efc73e4c516076f59d6859417
+  languageName: node
+  linkType: hard
+
 "unique-filename@npm:^3.0.0":
   version: 3.0.0
   resolution: "unique-filename@npm:3.0.0"
@@ -1887,13 +1924,3 @@ __metadata:
   checksum: 2286b5e8dbfe22204ab66e2ef5cc9bbb1e55dfc873bbe0d568aa943eb255d131890dfd5bf243637273d31119b870f49c18fcde2c6ffbb7a7a092b870dc90625a
   languageName: node
   linkType: hard
-
-"yarn-berry-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "yarn-berry-template@workspace:."
-  dependencies:
-    "@yarnpkg/sdks": "npm:^3.1.0"
-    tsx: "npm:^4.7.0"
-    typescript: "npm:^5.3.3"
-  languageName: unknown
-  linkType: soft
